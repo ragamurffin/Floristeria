@@ -9,6 +9,7 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div id="cabecera">
@@ -25,14 +26,46 @@ and open the template in the editor.
             </ul>
         </div>
         <div id="formulario">
+            <h1> Escribenos y te responderemos</h1>
+            <form>
+                <div>
+                <label fro="nombre"> Nombre: </label>
+                <input type="text" id="nombre"/>
+                </div>
+                <div>
+                <label fro="telefono"> Telefono: </label>
+                <input type="text" id="telefono"/>
+                </div>
+                <div>
+                <label fro="correo"> Email: </label>
+                <input type="email" id="email"/>
+                </div>
+                <div>
+                <label fro="asunto"> Asunto: </label>
+                <select id="asunto" name="asunto">
+                    <option value="" selected="selected"> Elige una opcion </option>
+                    <option value="informacion"> Solicitud informacion </option>
+                    <option value="cotiza"> Solicita cotizacion</option>
+                    <option value="reclamacion"> Realizar una reclamacion </option>
+                    <option value="otro"> Otro </option>
+                </select>
+                </div>
+                <div>
+                <label for="mensaje"> Mensaje: </label>
+                <textarea id="msg" cols="80" rows="10"> </textarea>
+        </div>
+                <div class="boton">
+                    <button type="submit"> Enviar </buttons>
+                    
+            </form>
             </div>
         <div id ="pie">
-            < Dirección: Calle Sabana Larga, Santiago De Los Caballeros 51000</br>
+            Dirección: Calle Sabana Larga, Santiago De Los Caballeros 51000</br>
             Horario: Cerrado ⋅ Horario de apertura: mar. 08:30</br>
             Teléfono: (809) 971-2000)</br>
 </br>
 <img src="imagenes/facebook logo 2.png" width=30 height=30 alt=""/>
-<img src="imagenes/twitter logo2.jpg" width=50 height=40 alt=""/>
+<img src="imagenes/twitter logo2.jpg" width=60 height=40 alt=""/>
 <img src="imagenes/instagram logo 2.png" width=30 height=30 alt=""/>
 <img src="imagenes/youtube.png" width=30 height=30 alt=""/>
 
